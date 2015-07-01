@@ -7,7 +7,7 @@ function C($action,$method){
 }
 function M($model){
 	$modelClassName = ucwords($model).'Model';
-	$modelClass = new $modelClassName();
+	$modelClass = new $modelClassName($model);
 	return $modelClass;
 }
 function V($action,$method){

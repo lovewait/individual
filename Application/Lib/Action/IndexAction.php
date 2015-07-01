@@ -12,6 +12,7 @@ class IndexAction extends Action{
 		$model = M($this->_action_name);
 		$this->assign('data','this is test.html');
 		$data = $model->test();
+		$this->assign('data',$data['name']);
 		$this->display();
 	}
 }

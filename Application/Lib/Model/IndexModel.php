@@ -1,9 +1,9 @@
 <?php
-class IndexModel{
+class IndexModel extends Model{
 	function index(){
 		return 'indexmodel';
 	}
 	function test(){
-		return 'testmodel';
+		return $this->_db->getRow("select * from test");
 	}
 }

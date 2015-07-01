@@ -1,9 +1,10 @@
 individual：用于构建个人知识库系统
-Version：1.2.0
+Version：1.2.1
 新增特性：
 建立配置文件config
 建立扩展目录ORG
 建立tpl文件夹
+建立db操作类
 建立统一的action，model，view的基类
 下一版目标：
 

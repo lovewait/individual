@@ -1,16 +1,17 @@
 <?php
-class IndexAction{
+class IndexAction extends Action{
 	function index(){
-		$model = M(str_replace('Action', '', __CLASS__));
+		$model = M($this->_action_name);
 		$data = $model->index();
-		$this->display($data);
+		$this->assign('xxx',$data);
+		$this->assign('yyy','this is a test');
+		$this->assign('zzz','i want to test preg_match_all function in index.html');
+		$this->display();
 	}
 	function test(){
-		$model = M(str_replace('Action', '', __CLASS__));
+		$model = M($this->_action_name);
+		$this->assign('data','this is test.html');
 		$data = $model->test();
-		$this->display($data);
-	}
-	function display($data){
-		$this->_view->display($data);
+		$this->display();
 	}
 }

@@ -1,2 +1,6 @@
 <?php
-return array();
+return array(
+	'autoload_list' => array(
+		'function.php',
+		),
+);

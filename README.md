@@ -3,14 +3,12 @@ Version：1.2.0
 新增特性：
 建立配置文件config
 建立扩展目录ORG
-建立DB操作的文件
 建立tpl文件夹
 建立统一的action，model，view的基类
-基于接口开发
 下一版目标：
 
 系统文件目录：
-individual：
+Individual：
 core下为function.php
 
 应用目录下的配置

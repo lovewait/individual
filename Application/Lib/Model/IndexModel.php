@@ -4,6 +4,6 @@ class IndexModel extends Model{
 		return 'indexmodel';
 	}
 	function test(){
-		return $this->_db->getRow("select * from test");
+		return $this->_db->getAll("select * from test");
 	}
 }

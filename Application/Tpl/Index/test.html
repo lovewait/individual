@@ -5,6 +5,8 @@
 	<title>首页</title>
 </head>
 <body>
-	{$data}{$xxx}{$yyy}{$zzz}总归要随便说的别的啥的吧{{$zzz}这个括号里面必须有$不信你看}
+	{foreach $data as $key => $value}
+		{$value['name']}{$xxx}总归要随便说的别的啥的吧{$zzz}这个括号里面必须有$不信你看}
+	{/foreach}
 </body>
 </html>

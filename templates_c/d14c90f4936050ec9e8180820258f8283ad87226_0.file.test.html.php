@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.24, created on 2015-07-02 11:46:09
+<?php /* Smarty version 3.1.24, created on 2015-07-02 15:09:21
          compiled from "C:/WWW/individual/Application/Tpl/Index/test.html" */ ?>
 <?php
-/*%%SmartyHeaderCode:260445594b401ea9e68_21657612%%*/
+/*%%SmartyHeaderCode:31985594e3a1ef1402_85222852%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd14c90f4936050ec9e8180820258f8283ad87226' => 
     array (
       0 => 'C:/WWW/individual/Application/Tpl/Index/test.html',
-      1 => 1435808768,
+      1 => 1435809030,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '260445594b401ea9e68_21657612',
+  'nocache_hash' => '31985594e3a1ef1402_85222852',
   'variables' => 
   array (
     'data' => 0,
@@ -23,13 +23,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.24',
-  'unifunc' => 'content_5594b401ef49a8_19947492',
+  'unifunc' => 'content_5594e3a2037447_41533863',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5594b401ef49a8_19947492')) {
-function content_5594b401ef49a8_19947492 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5594e3a2037447_41533863')) {
+function content_5594e3a2037447_41533863 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '260445594b401ea9e68_21657612';
+$_smarty_tpl->properties['nocache_hash'] = '31985594e3a1ef1402_85222852';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www./TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
@@ -50,7 +50,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['key']->value => $_smarty_tpl->tpl_var
 $_smarty_tpl->tpl_vars['value']->_loop = true;
 $foreach_value_Sav = $_smarty_tpl->tpl_vars['value'];
 ?>
-	<?php echo $_smarty_tpl->tpl_vars['value']->value['name'];
+		<?php echo $_smarty_tpl->tpl_vars['value']->value['name'];
 echo $_smarty_tpl->tpl_vars['xxx']->value;?>
 总归要随便说的别的啥的吧<?php echo $_smarty_tpl->tpl_vars['zzz']->value;?>
 这个括号里面必须有$不信你看}
